@@ -5969,7 +5969,7 @@ div#myTabContent {
 }
 
 .contact-map{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 /*--------------- About Page Design ------------------*/
 .about-bg {
@@ -7778,7 +7778,7 @@ h4.widget_title {
 	font-size:14px;
 }
 .light-footer .footer-bottom {
-    background:#ffffff;
+    background:#ebebf0;
     border-top:1px solid #edeff1;
 }
 footer.skin-dark-footer .extream, footer.skin-light-footer .extream {
