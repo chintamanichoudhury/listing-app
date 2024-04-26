@@ -5862,7 +5862,7 @@ div#myTabContent {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.row  {
+.row-contact  {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
