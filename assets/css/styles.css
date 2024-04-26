@@ -5505,6 +5505,7 @@ select.form-control, select {
     padding: 0;
     background: transparent;
     margin: 0;
+    --bs-breadcrumb-divider:'>'
 }
 
 /*------------ pricing Box ----------------*/
