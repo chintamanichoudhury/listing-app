@@ -1985,7 +1985,7 @@ nav a:hover {
 }
 
 .nav-dropdown {
-    min-width:250px;
+    min-width:150px;
     margin: 0;
     padding: 0;
     display: none;
@@ -5864,7 +5864,7 @@ div#myTabContent {
 .about-bg:before {
     position: absolute;
     content: "";
-    background: linear-gradient(to left, transparent 25%, #101219);
+    background: linear-gradient(to left, transparent 10%, #101219);
     left: 0;
     right: 0;
     top: 0;
@@ -5879,6 +5879,8 @@ div#myTabContent {
     display: block;
     position: relative;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .abt-caption-head h1 {
     color: #ffffff;
@@ -5886,6 +5888,7 @@ div#myTabContent {
     font-size: 60px;
     line-height: 1.1;
     margin-bottom: 1.2rem;
+    
 }
 .abt-caption-head h6 {
     color: #ffffff;
@@ -5898,6 +5901,15 @@ div#myTabContent {
     margin-top:1.5rem;
 	margin-bottom:2rem;
 }
+.abtus p{
+    text-align: justify;
+}
+.about-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 .wrk-pro-box {
     position: relative;
     display: flex;
@@ -5907,6 +5919,7 @@ div#myTabContent {
     border: 1px solid #e7e4e4;
     padding: 2rem 2.5rem;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .wrk-pro-box-icon {
     display: flex;
